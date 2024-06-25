@@ -1,10 +1,11 @@
 import { Outlet } from "react-router-dom";
+import Header from "../components/Header";
 
 function AppLayout() {
   return (
     <div>
       <main className="min-h-screen container">
-        Appbar
+        <Header/>
         <Outlet />
       </main>
       <footer className="p-10 text-center  bg-gray-900  text-white mt-10">
